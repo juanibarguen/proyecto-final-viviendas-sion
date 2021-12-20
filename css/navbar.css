@@ -1,0 +1,33 @@
+
+.nav-item {
+    padding: .5em;
+}
+
+.align-self-end {
+    align-self: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.dropdown-menu.show {
+    display: block;
+    padding: 0.5em 1.5em;
+    
+}
+
+.navbar-brand > img {
+        height: 90px;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-brand > img {
+        height: 70px;
+    }
+
+}
+
+@media screen and (max-width: 715px){
+    .navbar-brand > img {
+        height: 60px;
+    }
+}

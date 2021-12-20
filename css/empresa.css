@@ -1,0 +1,158 @@
+/* SECTION-EMPRESA */
+
+.empresa-imagen{
+    width: 100%;
+}
+
+.empresa-imagen > img {
+    width: 100%;
+}
+
+.empresa-textos-principal {
+    width: 300px;
+    position: absolute;
+    margin-left: 2em;
+}
+
+ .empresa-textos-principal > a {
+    margin-top: 1em;
+    display: inline-block;
+    background-color: #E83A30;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 1px;
+    text-align: center;
+}  
+
+
+.contenedor-empresa {
+    display: flex;
+    align-items: center;
+}
+
+.empresa-textos {
+    width: 80%;
+    margin:  0 auto;
+}
+
+.textos-principal > h2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.textos-principal > p {
+    margin: 1em 0;
+}
+
+.textos-secundarios > p {
+    margin-bottom: 1em;
+}
+
+.equipo-de-ventas {
+    width: 100%;
+    background-color: #f6f6f5;
+    margin-top: 2em;
+}
+
+.contenedor-ventas {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10em;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    padding: 2em 2em;
+    
+}
+
+.perfil-uno p {
+    color: #5c5c5d;
+}
+
+
+.perfil-img {
+    height: 300px;
+    border-radius: 300px;
+    border: 2px solid #e83a30 ;
+    padding: 5px;
+}
+
+.equipo-de-ventas > h3 {
+    padding: 50px 0 10px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.wpp-perfil {
+    margin: .5em 0;
+}
+
+.wpp-perfil > a {
+    display: inline-block;
+    background-color: #00E676;
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 816px) {
+    .contenedor-ventas {
+        row-gap: 2em;
+    }
+}
+
+
+@media screen and (max-width: 513px) {
+    .equipo-de-ventas > h3 {
+        padding: 40px 0 10px 0;
+        font-size: 20px;
+    }
+    .perfil-img {
+        height: 250px;
+        border-radius: 250px;
+        border: 2px solid #e83a30;
+        padding: 5px;
+    }
+
+    .contenedor-ventas {
+        padding: 0em 2em 2em 2em;
+    }
+}
+
+
+@media screen and (max-width: 396px) {
+    .empresa-textos-principal {
+        width: 230px;
+        margin-left: 1em;
+    }
+
+    .empresa-textos-principal > h1 {
+        font-size: 18px;  
+    }
+    .empresa-textos-principal > p {
+        font-size: 16px;  
+    }
+
+    .empresa-textos-principal > a {
+        margin-top: .5em;
+        display: inline-block;
+        background-color: #E83A30;
+        width: 120px;
+        height: 25px;
+        text-decoration: none;
+        line-height: 25px;
+        color: #fff;
+        border-radius: 1px;
+        text-align: center;
+        font-size: 14px;
+    }
+}

@@ -43,10 +43,6 @@
     margin: 1em 0;
 }
 
-.textos-principal > p {
-    margin: 1em 0;
-}
-
 .textos-secundarios > p {
     margin-bottom: 1em;
 }
@@ -103,10 +99,17 @@
     border-radius: 50px;
 }
 
+.textos-principal {
+    margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 816px) {
     .contenedor-ventas {
         row-gap: 2em;
+    }
+    .textos-principal > h2 {
+        margin: .5em 0;
     }
 }
 
@@ -121,6 +124,7 @@
         border-radius: 250px;
         border: 2px solid #e83a30;
         padding: 5px;
+        margin-bottom: 10px;
     }
 
     .contenedor-ventas {

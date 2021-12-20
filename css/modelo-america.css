@@ -173,3 +173,60 @@
     color: #fff;
     border-radius: 5px;
 }
+
+
+.modelos-right {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1035px) {
+    .contenedor-modelos{
+        flex-direction: column-reverse;
+    }
+    .modelos-left {
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 493px) {
+    .modelos-left > a {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .modelos-left {
+        padding: 3em 0;
+
+    }
+
+    .modelos-left > p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .oferta-uno {
+        max-width: 300px;
+    }
+
+    .oferta-img > img {
+        width: 300px;
+    }
+
+    .ofertas-precio-cta .ofertas-cta {
+        left: 3em;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    .oferta-uno {
+        max-width: 270px;
+    }
+
+    .oferta-img > img {
+        width: 270px;
+    }
+}

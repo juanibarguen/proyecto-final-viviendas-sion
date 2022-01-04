@@ -218,3 +218,109 @@
         padding: 3em 1em;
 }
 }
+
+
+
+
+.titulo-sistema {
+    margin-top: 1em;
+    text-align: center;
+    color: #1b1b1c;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.imagen-sistema {
+    width: 100%;
+}
+
+.imagen-sistema > img {
+    width: 100%;
+}
+
+.video-sistema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f5;
+    background-image: url(/imagenes/home-dev.webp);
+    width: 100%;
+    padding: 5em 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.video-sistema > iframe {
+    width: 70%;
+    height: 500px;
+}
+
+.video-sistema > h3 {
+    background-color: #E83B31;
+    color: #ffffff;
+    padding: .5em 2em;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 1010px) {
+    .card-uno {
+        column-gap: 100px;
+    }
+
+    .especificaciones {
+        margin: 1em 3em;
+    } 
+
+    .video-sistema > iframe {
+        width: 80%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .video-sistema > iframe {
+        width: 80%;
+        height: 250px;
+    }
+
+    .video-sistema {
+        padding: 2em 0;
+        margin: 1em 0;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .video-sistema > iframe {
+        width: 80%;
+        height: 200px;
+    }
+
+    .video-sistema > h3 {
+        background-color: #E83B31;
+        color: #ffffff;
+        padding: .3em 1em;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 445px) {
+    .video-sistema > iframe {
+        width: 80%;
+        height: 150px;
+    }
+
+    .titulo-sistema {
+        font-size: 25px;
+        margin-top: .5em;
+    }
+}
